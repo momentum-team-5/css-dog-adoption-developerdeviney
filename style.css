@@ -1,0 +1,29 @@
+h1 {
+    font-family: "Open Sans", Oswald;
+    color: azure;
+    border: 10px;
+    border-color: #89deef;
+    background-color: #004175;
+}
+
+ul {
+    list-style-type: none;
+}
+
+button {
+    border-radius: 6px;
+    background-color: #89DEEF;
+    border-color: #89DEEF;
+    padding: 1px;
+    margin: 2px; 
+}
+
+.name {
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.container {
+    display: flex;
+    
+}
