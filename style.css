@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    font-family: "Open Sans", Oswald;
+}
+
+header {
+    color: azure;
+    background-color: #004175;
+    border-bottom: 2px solid #89DEEF;
+}
+
+h1 {
+    color: ivory;
+}
+
+h2 {
+    padding: 15px 0px 15px 50px;
+}
+
+h3 {
+    margin-left: 50px;
+    margin-top: 20px; 
+}
+
+.adopt-description {
+    margin-left: 50px; 
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+button {
+    border-radius: 6px;
+    background-color: #89DEEF;
+    border-color: #89DEEF;
+    padding: 1px;
+    margin: 2px;
+    font-size: 11px; 
+    white-space: nowrap;
+}
+
+.name {
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.traits {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: center;
+    margin: 0px 50px; 
+    margin-top: 18px;
+}
+
+.container {
+    padding: 3px;
+    flex: 1 0 30%;
+}   
+
+footer {
+    display: flex;
+    background-color: #A6A9F0;
+    line-height: 350px;
+    margin-top: 30px;
+}
+
+.footer-item1 {
+    flex: 1 0 33%;
+    background: linear-gradient(
+        rgba(166, 169, 240, 0.8), 
+        rgba(166, 169, 240, 0.8)), 
+        url(starter_files/images/donate.jpg);
+}
+
+.footer-item2 {
+    flex: 1 0 33%;
+    background: linear-gradient(
+        rgba(166, 169, 240, 0.8), 
+        rgba(166, 169, 240, 0.8)), 
+        url(starter_files/images/volunteer.jpg);
+}    
+
+.footer-item3 {
+    flex: 1 0 33%;
+    background: linear-gradient(
+        rgba(166, 169, 240, 0.8), 
+        rgba(166, 169, 240, 0.8)), 
+        url(starter_files/images/location.png);
+}
+
+.img-txt {
+    text-align: center;
+}
+

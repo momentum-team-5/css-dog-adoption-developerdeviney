@@ -39,7 +39,7 @@ Finally, once you have each dog showing up with its image and traits, but each o
 
 ### Section 3: the footer
 
-This is the most difficult section, and some professional web developers would struggle with it. Once you have the three words on the page, try laying them out in three blocks next to each other. (These should always be in three blocks.) Flexbox may be your friend here. If you are using flexbox, the property `flex: 1 1 auto` should be applied to each block to get them to grow to fill the page.
+This is the most difficult section, and some professional web developers would struggle with it. Once you have the three words on the page, try laying them out in three blocks next to each other. (These should always be in three blocks.) Flexbox may be your friend here. If you are using flexbox, the property `\` should be applied to each block to get them to grow to fill the page.
 
 Once they are next to each other, give them some height and center the text horizontally in them. This should be fairly straightforward.
 
