@@ -1,6 +1,7 @@
 * {
     margin: 0;
     font-family: "Open Sans", Oswald;
+    box-sizing: border-box;
 }
 
 header {
@@ -76,12 +77,10 @@ footer {
     flex: 1 0 33%;
     align-items: center;
     justify-content: center;
-    background-position: cover;
-    background-size: fill;
     background: linear-gradient(
         rgba(166, 169, 240, 0.8), 
         rgba(166, 169, 240, 0.8)), 
-        url(starter_files/images/donate.jpg);
+        url(starter_files/images/donate.jpg) center;
 }
 
 .footer-item2 {
@@ -90,11 +89,10 @@ footer {
     align-items: center;
     justify-content: center;
     background-position: center;
-    background-size: cover;
     background: linear-gradient(
         rgba(166, 169, 240, 0.8), 
         rgba(166, 169, 240, 0.8)), 
-        url(starter_files/images/volunteer.jpg);
+        url(starter_files/images/volunteer.jpg) center;
 }    
 
 .footer-item3 {
@@ -102,10 +100,9 @@ footer {
     flex: 1 0 33%;
     align-items: center;
     justify-content: center;
-    background-position: center;
     background-size: cover;
     background: linear-gradient(
         rgba(166, 169, 240, 0.8), 
         rgba(166, 169, 240, 0.8)), 
-        url(starter_files/images/location.png);
+        url(starter_files/images/location.png) center;
 }
