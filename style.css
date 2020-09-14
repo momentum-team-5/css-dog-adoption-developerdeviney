@@ -55,7 +55,6 @@ button {
 section {
     display: flex;
     flex-wrap: wrap;
-    justify-items: center;
     margin: 0px 50px; 
     margin-top: 18px;
 }
@@ -68,12 +67,17 @@ section {
 footer {
     display: flex;
     background-color: #A6A9F0;
-    line-height: 350px;
+    height: 350px;
     margin-top: 30px;
 }
 
 .footer-item1 {
+    display: flex;
     flex: 1 0 33%;
+    align-items: center;
+    justify-content: center;
+    background-position: cover;
+    background-size: fill;
     background: linear-gradient(
         rgba(166, 169, 240, 0.8), 
         rgba(166, 169, 240, 0.8)), 
@@ -81,7 +85,12 @@ footer {
 }
 
 .footer-item2 {
+    display: flex;
     flex: 1 0 33%;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-size: cover;
     background: linear-gradient(
         rgba(166, 169, 240, 0.8), 
         rgba(166, 169, 240, 0.8)), 
@@ -89,14 +98,14 @@ footer {
 }    
 
 .footer-item3 {
+    display: flex;
     flex: 1 0 33%;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-size: cover;
     background: linear-gradient(
         rgba(166, 169, 240, 0.8), 
         rgba(166, 169, 240, 0.8)), 
         url(starter_files/images/location.png);
 }
-
-.img-txt {
-    text-align: center;
-}
-
